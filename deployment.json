@@ -1,0 +1,95 @@
+{
+  "Token:bnb": {
+    "address": "0xCe81bBA72C10E32C3DA13894553B332d87353C92"
+  },
+  "PriceFeed:bnbPriceFeed": {
+    "address": "0xEE3873Fdd49E914fCAF771b6574A93Ef756DA3C9"
+  },
+  "Token:btc": {
+    "address": "0x086f32Af65DE457727f35424b9Cfa5FE3Fab80F6"
+  },
+  "PriceFeed:btcPriceFeed": {
+    "address": "0x70a9294F039db1a333bd4224992cDeb89C614Fcf"
+  },
+  "Token:eth": {
+    "address": "0x90Aa4B146B3550a7eB526fBACdd42CDC57Ca9590"
+  },
+  "PriceFeed:ethPriceFeed": {
+    "address": "0x1Bbb8643a1A13967a718a22A96f0be5435f4a79C"
+  },
+  "Token:dai": {
+    "address": "0x2A544531f0B2610B6Ee104Ad157ecbbC28fC520E"
+  },
+  "PriceFeed:daiPriceFeed": {
+    "address": "0x7C09245F2215C89bf403B9e0CAe0F06329b64Ae1"
+  },
+  "Vault": {
+    "address": "0xf7378dd2C319693725e99A097556108d27EBb9f7"
+  },
+  "USDG": {
+    "address": "0xD3F34D528Cb5D9B94D6d5d21366b3d0C0d70b31D"
+  },
+  "Router": {
+    "address": "0x3CdB95fb4b35bDe0580Aaefb39E392463DC3DD36"
+  },
+  "VaultPriceFeed": {
+    "address": "0xef2Fa9a30b79B811B2116B8896749834028c3Db4"
+  },
+  "GLP": {
+    "address": "0x2903Ce2B334f395182D8f7b1A50522B768CF1A45"
+  },
+  "GlpManager": {
+    "address": "0xd08DaACB0a2f4808Eb09278ae1BaBAaBa28Bc7E5"
+  },
+  "GMX": {
+    "address": "0x452EEF55C0Bd95DbF620E1Eb828E4b286bdC0B85"
+  },
+  "EsGMX": {
+    "address": "0xD46C0CCbF47B58406398e20c3E7ad813D76AbF97"
+  },
+  "MintableBaseToken": {
+    "address": "0x3843a9e47Ff402A55FbA525486977bb60C95cce5"
+  },
+  "RewardTracker:stakedGmxTracker": {
+    "address": "0xA896Cb56278e62eF442d5608280E0AFAFE504d08"
+  },
+  "RewardDistributor:stakedGmxDistributor": {
+    "address": "0xFa65aB5D989300e8a4648B77F894c723e65337E2"
+  },
+  "RewardTracker:bonusGmxTracker": {
+    "address": "0x3750179510ceB4C1e010Beb3c065c300f1198CC6"
+  },
+  "BonusDistributor:bonusGmxDistributor": {
+    "address": "0xec2bfb2d9DCeb5B61760Ad4c6df783f20229c1D3"
+  },
+  "RewardTracker:feeGmxTracker": {
+    "address": "0x528361068052A5cE5b09e3Ec593614987e1A1510"
+  },
+  "RewardDistributor:feeGmxDistributor": {
+    "address": "0x5eA048E1d9fd58E812F650dab9c975A11741E35D"
+  },
+  "RewardTracker:feeGlpTracker": {
+    "address": "0xD0b38dA601Cb543A15b94842Bb58e3EDe19b8dbf"
+  },
+  "RewardDistributor:feeGlpDistributor": {
+    "address": "0x7f6EFF91f5b621F7BB3753fb777ba3cFf537aF79"
+  },
+  "RewardTracker:stakedGlpTracker": {
+    "address": "0x66eaF9a7B9791470da75D85108D9E8bab2047df7"
+  },
+  "RewardDistributor:stakedGlpDistributor": {
+    "address": "0x49063a7fF3CF205b7a439B0F74DDb959826f0474"
+  },
+  "StakedGlp": {
+    "address": "0x722bf6996C8e3802C8E4CCB66D8024A9087cF650"
+  },
+  "Vester:gmxVester": {
+    "address": "0xCaaCce332A160687d01a11E3a1B16223F20979b0"
+  },
+  "Vester:glpVester": {
+    "address": "0xd82B27d06ddBc7E88FF6EcBD671bdf2A503E16A3"
+  },
+  "RewardRouterV2": {
+    "address": "0xCc654f8077180DB66fF646f64ab1715AA0e54251"
+  }
+}
