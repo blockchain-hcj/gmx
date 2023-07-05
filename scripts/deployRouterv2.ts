@@ -77,7 +77,7 @@ let sglp
     vault = await helper.deployContract("Vault", [])
     usdg = await helper.deployContract("USDG", [vault.address])
 
-  router = await helper.deployContract("Router", [vault.address, usdg.address, bnb.address])
+  router = await helper.deployContract("Router", [vault.address, usdg.address, eth.address])
 
   vaultPriceFeed = await helper.deployContract("VaultPriceFeed", [])
 
@@ -109,6 +109,11 @@ let sglp
   tx = await bnbPriceFeed.setLatestAnswer(toChainlinkPrice(300))
   await tx.wait();
   tx =  await vault.setTokenConfig(...getBnbConfig(bnb, bnbPriceFeed))
+  await tx.wait();
+
+  tx = await ethPriceFeed.setLatestAnswer(toChainlinkPrice(300))
+  await tx.wait();
+  tx =  await vault.setTokenConfig(...getEthConfig(eth, ethPriceFeed))
   await tx.wait();
 
   tx =   await glp.setMinter(glpManager.address, true)
@@ -182,7 +187,7 @@ let sglp
 
   rewardRouter = await helper.deployContract("RewardRouterV2", [])
   await rewardRouter.initialize(
-      bnb.address,
+      eth.address,
       gmx.address,
       esGmx.address,
       bnGmx.address,
@@ -314,8 +319,11 @@ let sglp
   tx =await stakedGlpTracker.setHandler(glpVester.address, true)
   await tx.wait()
 
-
-   tx = await eth.mint(feeGlpDistributor, ethers.utils.parseEther('500'))
+  tx = await eth.deposit({
+    value: ethers.utils.parseEther('0.1')
+  })
+  await tx.wait();
+   tx = await eth.mint(feeGlpDistributor.address, ethers.utils.parseEther('500'))
   await tx.wait();
   tx = await feeGlpDistributor.setTokensPerInterval("41335970000000");
   await tx.wait();

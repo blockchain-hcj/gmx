@@ -9,7 +9,7 @@ async function main() {
   const gasPrice = await ethers.provider.getGasPrice()
 // 获取部署者的钱包
   const [deployer] = await ethers.getSigners();
-  const rewardRouter  = await ethers.getContractAt("RewardRouterV2","0xCc654f8077180DB66fF646f64ab1715AA0e54251") as RewardRouterV2;
+  const rewardRouter  = await ethers.getContractAt("RewardRouterV2","0x2439a447F9631E5B5caD036D4b4e58e5A6D14065") as RewardRouterV2;
   const mint = await rewardRouter.mintAndStakeGlpETH(ethers.utils.parseEther('299'),
     ethers.utils.parseEther('299'),{
     value: ethers.utils.parseEther('1')

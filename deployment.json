@@ -1,95 +1,95 @@
 {
   "Token:bnb": {
-    "address": "0xCe81bBA72C10E32C3DA13894553B332d87353C92"
+    "address": "0xB299554B7607240536E0A2fB75bd5820d8B97b11"
   },
   "PriceFeed:bnbPriceFeed": {
-    "address": "0xEE3873Fdd49E914fCAF771b6574A93Ef756DA3C9"
+    "address": "0x0334eA8E556B660AB5E31E40f7F2456f3234aC15"
   },
   "Token:btc": {
-    "address": "0x086f32Af65DE457727f35424b9Cfa5FE3Fab80F6"
+    "address": "0x1B514a5cAC6C397f1EeAA3DCbF31af32D0C630B3"
   },
   "PriceFeed:btcPriceFeed": {
-    "address": "0x70a9294F039db1a333bd4224992cDeb89C614Fcf"
+    "address": "0x6e0f2482368115CD19Dfa6D06b5237b5Fe63807c"
   },
   "Token:eth": {
-    "address": "0x90Aa4B146B3550a7eB526fBACdd42CDC57Ca9590"
+    "address": "0xBFD86Fb39fAcEC3C04C2ff1c0B35f8626DD5eafd"
   },
   "PriceFeed:ethPriceFeed": {
-    "address": "0x1Bbb8643a1A13967a718a22A96f0be5435f4a79C"
+    "address": "0x2A99c2D2F15f6392F28c6aC59B6D2C953A6919D3"
   },
   "Token:dai": {
-    "address": "0x2A544531f0B2610B6Ee104Ad157ecbbC28fC520E"
+    "address": "0xC83f1e0802DBE2B9A2A979C4Cf194ff1FA35E9Bc"
   },
   "PriceFeed:daiPriceFeed": {
-    "address": "0x7C09245F2215C89bf403B9e0CAe0F06329b64Ae1"
+    "address": "0x4a3E6a9d072dBAcEd7C63eB1679CB0540d4c27d0"
   },
   "Vault": {
-    "address": "0xf7378dd2C319693725e99A097556108d27EBb9f7"
+    "address": "0x38A3e365241BA7A0E5c94340Bf26057B98526a85"
   },
   "USDG": {
-    "address": "0xD3F34D528Cb5D9B94D6d5d21366b3d0C0d70b31D"
+    "address": "0x0d71FFE60124D484Ea5D9cC430ABD286579a5d0A"
   },
   "Router": {
-    "address": "0x3CdB95fb4b35bDe0580Aaefb39E392463DC3DD36"
+    "address": "0x914b72a1ae775774fE312B27ed81c3adDc8F747C"
   },
   "VaultPriceFeed": {
-    "address": "0xef2Fa9a30b79B811B2116B8896749834028c3Db4"
+    "address": "0x2CFA2B84Fb12f5f8cDc2aB15e73451159030CB3F"
   },
   "GLP": {
-    "address": "0x2903Ce2B334f395182D8f7b1A50522B768CF1A45"
+    "address": "0x21646e37504af2C91E8d80787Bd45DDe3d6c3933"
   },
   "GlpManager": {
-    "address": "0xd08DaACB0a2f4808Eb09278ae1BaBAaBa28Bc7E5"
+    "address": "0x1d0E00822De0276E170948D12c2154c118868266"
   },
   "GMX": {
-    "address": "0x452EEF55C0Bd95DbF620E1Eb828E4b286bdC0B85"
+    "address": "0x4bb86F8e3ffec0bc25FCE38fAEc99cb81Bb133aF"
   },
   "EsGMX": {
-    "address": "0xD46C0CCbF47B58406398e20c3E7ad813D76AbF97"
+    "address": "0x0dDe8C10933DF5608658feAA78e3c2493eC9CAD8"
   },
   "MintableBaseToken": {
-    "address": "0x3843a9e47Ff402A55FbA525486977bb60C95cce5"
+    "address": "0x5659c2073D9841613D52cC27252965CE081777Ce"
   },
   "RewardTracker:stakedGmxTracker": {
-    "address": "0xA896Cb56278e62eF442d5608280E0AFAFE504d08"
+    "address": "0x25BDef096C77483a472B3C25409fB7e06F475e6d"
   },
   "RewardDistributor:stakedGmxDistributor": {
-    "address": "0xFa65aB5D989300e8a4648B77F894c723e65337E2"
+    "address": "0x820d1D14920D05E646651b0fB5EE43834a20507e"
   },
   "RewardTracker:bonusGmxTracker": {
-    "address": "0x3750179510ceB4C1e010Beb3c065c300f1198CC6"
+    "address": "0x1DFdbDF8a41717FF5B133707130879491A9615c7"
   },
   "BonusDistributor:bonusGmxDistributor": {
-    "address": "0xec2bfb2d9DCeb5B61760Ad4c6df783f20229c1D3"
+    "address": "0x1E241973727B7a74f05086d9408db0FD011f9158"
   },
   "RewardTracker:feeGmxTracker": {
-    "address": "0x528361068052A5cE5b09e3Ec593614987e1A1510"
+    "address": "0x29E795C2E4b0f09012Fd00564E350734060Cc515"
   },
   "RewardDistributor:feeGmxDistributor": {
-    "address": "0x5eA048E1d9fd58E812F650dab9c975A11741E35D"
+    "address": "0x61adF4832824aeE3d3B251bE720F51eB269cFAF0"
   },
   "RewardTracker:feeGlpTracker": {
-    "address": "0xD0b38dA601Cb543A15b94842Bb58e3EDe19b8dbf"
+    "address": "0x5294A1B34Bd717EAC8b4eF2918B07e006d66DcD7"
   },
   "RewardDistributor:feeGlpDistributor": {
-    "address": "0x7f6EFF91f5b621F7BB3753fb777ba3cFf537aF79"
+    "address": "0xC16e1b97651c2290B4ac56b991b14B40421D1CEb"
   },
   "RewardTracker:stakedGlpTracker": {
-    "address": "0x66eaF9a7B9791470da75D85108D9E8bab2047df7"
+    "address": "0x9720358713c1332c4bbd338Fb45019043434C1Dd"
   },
   "RewardDistributor:stakedGlpDistributor": {
-    "address": "0x49063a7fF3CF205b7a439B0F74DDb959826f0474"
+    "address": "0x856fb4dE4D0e2c6b4843dc728487a333c410007f"
   },
   "StakedGlp": {
-    "address": "0x722bf6996C8e3802C8E4CCB66D8024A9087cF650"
+    "address": "0x12EA0F9FDC9eb371307f1a87E2CdEB26d1128DF8"
   },
   "Vester:gmxVester": {
-    "address": "0xCaaCce332A160687d01a11E3a1B16223F20979b0"
+    "address": "0x0C73a7543179559B7431a826cf8973872215eAe7"
   },
   "Vester:glpVester": {
-    "address": "0xd82B27d06ddBc7E88FF6EcBD671bdf2A503E16A3"
+    "address": "0x8b4BD365aEA83A67006Fbb9DD487370b58E0e951"
   },
   "RewardRouterV2": {
-    "address": "0xCc654f8077180DB66fF646f64ab1715AA0e54251"
+    "address": "0x2439a447F9631E5B5caD036D4b4e58e5A6D14065"
   }
 }

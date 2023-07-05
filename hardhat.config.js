@@ -104,6 +104,10 @@ module.exports = {
       url: MAINNET_URL,
       gasPrice: 50000000000,
       accounts: [MAINNET_DEPLOY_KEY]
+    },
+    aribturmGoerli:{
+      url: "https://arb-goerli.g.alchemy.com/v2/B3AjvdCFVaKh845e62PFl5uwLJsaU04k",
+      accounts: [`1c3ba5efea65631405c113c80985b5f78389bba9e6323901d687b765f4c5786f`]
     }
   },
   etherscan: {
